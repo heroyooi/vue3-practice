@@ -74,7 +74,7 @@ const addCity = () => {
     id: uid(),
     state: route.params.state,
     city: route.params.city,
-    corrds: {
+    coords: {
       lat: route.query.lat,
       lng: route.query.lng,
     },
